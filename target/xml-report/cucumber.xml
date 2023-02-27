@@ -1,12 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.812">
-    <testcase classname="Google Arama Testi" name="Arama Kutusu Testi" time="2.671">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="22.462">
+    <testcase classname="Google Arama Testi" name="Arama Kutusu Testi" time="4.451">
         <system-out>
-            <![CDATA[Given Kullanici google sayfasina gider......................................passed
+            <![CDATA[Given Kullanici google "https://www.google.com" sayfasina gider.............passed
 Then Kullanici cookies i kabul eder.........................................passed
-Then Arama Kutusuna karsilastirma yapmak istedigi para birimlerini girer....passed
+Then Arama Kutusuna karsilastirma yapmak istedigi "Euro to dollar" para birimlerini girer.passed
 Then Para birimlerinin karsilastirmasini alir...............................passed
-Then Verilen degerleri dogrular.............................................passed
+Then Verilen degerlerin 21 den kucuk oldugunu dogrular......................passed
+And Kullanici sayfayi kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Google Arama Testi" name="Arama Kutusu Testi 2" time="3.437">
+        <system-out>
+            <![CDATA[Given Kullanici google "https://www.google.com" sayfasina gider.............passed
+Then Kullanici cookies i kabul eder.........................................passed
+Then Arama Kutusuna karsilastirma yapmak istedigi "Euro to Tl" para birimlerini girer.passed
+Then Para birimlerinin karsilastirmasini alir...............................passed
+Then Verilen degerlerin 21 den kucuk oldugunu dogrular......................passed
+And Kullanici sayfayi kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Google Arama Testi" name="Arama Kutusu Testi 3" time="2.96">
+        <system-out>
+            <![CDATA[Given Kullanici google "https://www.google.com" sayfasina gider.............passed
+Then Kullanici cookies i kabul eder.........................................passed
+Then Arama Kutusuna karsilastirma yapmak istedigi "Dollar to TL" para birimlerini girer.passed
+Then Para birimlerinin karsilastirmasini alir...............................passed
+Then Verilen degerlerin 21 den kucuk oldugunu dogrular......................passed
+And Kullanici sayfayi kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Google Arama Testi" name="Arama Kutusu Testi 4" time="3.498">
+        <system-out>
+            <![CDATA[Given Kullanici google "https://www.google.com" sayfasina gider.............passed
+Then Kullanici cookies i kabul eder.........................................passed
+Then Arama Kutusuna karsilastirma yapmak istedigi "Dollar to zloty" para birimlerini girer.passed
+Then Para birimlerinin karsilastirmasini alir...............................passed
+Then Verilen degerlerin 21 den kucuk oldugunu dogrular......................passed
+And Kullanici sayfayi kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Google Arama Testi" name="Arama Kutusu Testi 5" time="4.819">
+        <system-out>
+            <![CDATA[Given Kullanici google "https://www.google.com" sayfasina gider.............passed
+Then Kullanici cookies i kabul eder.........................................passed
+Then Arama Kutusuna karsilastirma yapmak istedigi "Zloty to Tl" para birimlerini girer.passed
+Then Para birimlerinin karsilastirmasini alir...............................passed
+Then Verilen degerlerin 21 den kucuk oldugunu dogrular......................passed
+And Kullanici sayfayi kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Google Arama Testi" name="ARAMA KUTUSU TESTI 2" time="3.081">
+        <system-out>
+            <![CDATA[Given Kullanici google "https://www.google.com" sayfasina gider.............passed
+Then Kullanici cookies i kabul eder.........................................passed
+Then Arama Kutusuna karsilastirma yapmak istedigi "dollar to tl" para birimlerini girer.passed
+Then Para birimlerinin karsilastirmasini alir...............................passed
+Then Verilen degerlerin 21 den kucuk oldugunu dogrular......................passed
 And Kullanici sayfayi kapatir...............................................passed
 ]]>
         </system-out>
