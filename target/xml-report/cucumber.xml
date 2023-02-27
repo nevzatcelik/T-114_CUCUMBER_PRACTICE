@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.812">
+    <testcase classname="Google Arama Testi" name="Arama Kutusu Testi" time="2.671">
+        <system-out>
+            <![CDATA[Given Kullanici google sayfasina gider......................................passed
+Then Kullanici cookies i kabul eder.........................................passed
+Then Arama Kutusuna karsilastirma yapmak istedigi para birimlerini girer....passed
+Then Para birimlerinin karsilastirmasini alir...............................passed
+Then Verilen degerleri dogrular.............................................passed
+And Kullanici sayfayi kapatir...............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
